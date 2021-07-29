@@ -1,0 +1,14 @@
+key: CHANGEME
+tags:
+  Name: CHANGEME
+  appName: CHANGEME
+  projectName: CHANGEME
+metrics:
+  plugins:
+    - name: statsd
+      enabled: true
+      config:
+        port: 8126
+        flushInterval: 10
+        ruleFile: '/opt/sfagent/statsd-rules.txt'
+es_index_without_suffix: false
