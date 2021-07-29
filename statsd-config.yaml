@@ -8,7 +8,7 @@ metrics:
     - name: statsd
       enabled: true
       config:
-        port: 8126
+        port: 8125
         flushInterval: 10
         ruleFile: '/opt/sfagent/statsd-rules.txt'
 es_index_without_suffix: false
